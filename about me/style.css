@@ -1,0 +1,88 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+    gap: 30px;
+}
+h1{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-ul a{
+   font-size: 20px;
+   color: yellow;
+}
+.nav-ul a:hover{
+    color: #fff;
+}
+.me-text{
+   padding-top: 70px;
+    font-size: 60px;
+}
+.about1{
+    font-size: 25px;
+    padding-top: -40px;
+    color: rgba(255, 255, 255, 0.368);
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    background-color: #232323;
+}
+.btn1 a{
+    color: aliceblue;
+    font-size: 17px;
+}
+.btn2{
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+}
+.btn2 a{
+    color: #000;
+    font-size: 17px;
+}
+.net{
+    width: 50px;
+}
+.yt{
+   transform: translate(-400px,100px);
+}
+.ins{
+    transform: translate(-380px,90px);
+    width: 60px;
+ }
+ .tg{
+    transform: translate(-370px,100px);
+    width: 45px;
+ }
+ .pg{
+    transform: translate(-350px,100px);
+    width: 65px;
+ }
+ .my-foto{
+    width: 300px;
+    border-radius: 80%;
+    
+    transform: translate(300px,-200px);
+ }
+ .img-div{
+    width: 300px;
+    border-radius: 50%
+ }
